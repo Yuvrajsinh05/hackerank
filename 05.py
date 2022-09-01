@@ -1,8 +1,8 @@
-x = int(input())
-y = int(input())
-z = int(input())
-n = int(input())
+X = int(input())
+Y = int(input())
+Z = int(input())
+N = int(input())
 
-arr=[x,y,z]
-total=x+y+z
-a= [[i,j,k] for [i,j,k] in arr if n!=total]
+ans = [[i, j, k] for i in range(X + 1) for j in range(Y + 1) for k in range(Z + 1) if i + j + k != N]
+
+print (ans)
