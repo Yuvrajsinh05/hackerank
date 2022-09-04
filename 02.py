@@ -1,8 +1,8 @@
 from cmath import sqrt
 
+
 if __name__ == '__main__':
     n = int(input())
-
 
 # for i in range(0,20):
 #     print(i*i)
@@ -13,3 +13,5 @@ if __name__ == '__main__':
 for i in range(0,n):
     s=i*i
     print(s)
+
+

@@ -8,7 +8,7 @@
 # print (ans)
 
 from http.client import OK
-
+    
 
 for i in range[3]:
     print(i)
