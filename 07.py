@@ -17,10 +17,8 @@
 #   L.append(int(item))
 # print ("List : ",L)
 
-
 # name:input("Enter Your NAme :")
 # marks:int(input("Enter MArks"))
-
 # L=[]
 
 # L.insert(str(name))
