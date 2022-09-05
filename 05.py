@@ -9,13 +9,13 @@
 
 # from http.client import OK
     
-
+n=4
 for i in range(0,3):
     # print(i)
     for j in range(0,4):
         # print(j)
         for k in range(0,5):
-            # print(k)
-            print([i,j,k])
+            if(n!= i+j+k):
+               print([i,j,k])
 
 
