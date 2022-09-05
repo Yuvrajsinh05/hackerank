@@ -23,8 +23,6 @@
 
 # L.insert(str(name))
 # # L.append(int(marks))
-
-
 # print(L)
 
 Result =[]
