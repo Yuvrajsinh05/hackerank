@@ -37,3 +37,32 @@
 
 
 # print(a)
+
+
+
+
+
+
+# N = int(input("Enter num :"))
+
+# A =[]
+
+# for item in range(0,N):
+#     n=int(input("enter"),end=" ")
+#     print(n)
+# lst=list(reversed(A))
+# print(lst)
+
+
+
+# for items in lst:
+#     print(items,end=" ")
+
+
+if __name__ == '__main__':
+    n = int(input())
+
+    arr = list(map(int, input().rstrip().split()))
+    print(arr)
+    for i in reversed(arr):
+        print(i,end=' ')
